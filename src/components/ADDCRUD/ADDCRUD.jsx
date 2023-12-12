@@ -58,8 +58,8 @@ function ADDCRUD({ handleClick }) {
         <form className='form_post' onSubmit={handleSubmit(onSubmit)}>
           <input className='first_name' {...register("first_name")} placeholder="Enter first name" />
           <input className='last_name'  {...register("last_name")} placeholder="Enter last_name" />
-          <input className='age'  {...register("age")} placeholder="Enter age" />
-          <input className='phone_number'  {...register("phone_number")} placeholder="Enter phone_number" />
+          <input className='age' type='number'  {...register("age")} placeholder="Enter age" />
+          <input className='phone_number' type='number'  {...register("phone_number")} placeholder="Enter phone_number" />
           <input className='location'  {...register("location")} placeholder="Enter location" />
           <button className='btn' type="submit">Add</button>
         </form>

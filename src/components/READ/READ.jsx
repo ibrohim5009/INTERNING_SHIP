@@ -36,7 +36,7 @@ function READ() {
             <th className="py-2 px-4 border-b">Location</th>
             <th className="py-2 px-4 border-b">Edit</th>
             <th className="py-2 px-4 border-b">Delete</th>
-            <th className="py-2 px-4 border-b">Qo'shish</th>
+            <ADDCRUD />
           </tr>
         </thead>
         <tbody>
